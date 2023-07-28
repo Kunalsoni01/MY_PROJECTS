@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8731dc9275.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sum-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="link " id="links">
+                <i class="fa fa-solid fa-xmark " onclick="hide()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTECT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-sharp fa-solid fa-bars " onclick="show()"></i>
+        </nav>
+        <h1>our cirtificate and online programs for 2022</h1>
+
+    </section>
+
+    <section class="blog">
+        <div class="row">
+            <div class="left-col">
+                <img src="images/certificate.jpg" >
+                <h3>our cirtificate and online programs for 2022</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nemo qui consequatur maxime quaerat cum possimus tempore, dolorem laboriosam, natus illum repudiandae animi rerum! Perferendis, nam? Ex accusamus explicabo, molestias, quasi libero illo a possimus hic fugit quas ut cum in illum ratione quaerat, ducimus voluptas dicta molestiae adipisci eligendi?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestiae nihil eum, consectetur magnam eveniet repellat unde rerum et ullam, assumenda odit error aliquid autem repellendus natus itaque, dolore officia culpa voluptatum eos fugit nostrum. Velit fugiat vel sapiente facere ipsa commodi voluptatibus quod earum, ex assumenda recusandae corrupti, nemo magnam minima harum, ipsum id?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum perferendis quia nisi delectus! Odit ratione officiis quia cupiditate repellat inventore, cumque delectus debitis soluta minus omnis eos quidem ex expedita magni.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque qui porro fuga voluptate expedita explicabo officiis suscipit accusamus saepe sapiente.</p>
+
+                <div class="comment-box">
+                    <h3>LEAVE A COMMENT</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="enter name">
+                        <input type="email" placeholder="enter email">
+                        <textarea rows="5" placeholder="your comment"></textarea>
+                        <input type="button" class="hero-btn btnn" value="POST COMMENT">
+                    </form>
+                </div>
+            </div>
+            <div class="right-col">
+                <h3>post categories</h3>
+                <div>
+                    <span>business analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>data science</span>
+                    <span>31</span>
+                </div>
+
+                <div>
+                    <span>Machine learning</span>
+                    <span>25</span>
+                </div>
+
+                <div>
+                    <span>computer science</span>
+                    <span>29</span>
+                </div>
+
+                <div>
+                    <span>artificital inteligance</span>
+                    <span>20</span>
+                </div>
+
+                <div>
+                    <span>data stracture</span>
+                    <span>22</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ 
+    
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestiae distinctio numquam dolorum, <br> minima ratione voluptatum tempora excepturi quis vel suscipit harum! Aspernatur, molestiae tenetur!</p>
+        <div class="icons">
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-yahoo"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <h5>made by kunal soni   <i class="fa-solid fa-face-smile-wink"></i></h5>
+    </section>
+
+
+
+
+    <script>
+        var links = document.getElementById("links");
+
+        function show() {
+            links.style.right = "0px";
+        }
+
+        function hide() {
+            links.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
